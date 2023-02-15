@@ -1,0 +1,68 @@
+/* =============================================
+    DISPLAY
+   ============================================== */
+
+/* ! Inline */
+.inline-section,
+.block-section,
+.inline-block-section {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.inline-section span,
+.block-section div,
+.inline-block-section {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    color: #fff;
+    font-size: 24px;
+}
+/* width: 200px;
+height: 200px; */
+/* padding: 50px 100px; */
+/* margin: 50px 20px; */
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: green;
+}
+
+.three {
+    background-color: blue;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ================================================ */
+/* VISIBILITY */
+/* ================================================ */
+.visibility-section {
+    padding: 16px;
+}
+
+.visibility-div {
+    margin: 20px 0;
+    visibility: visible;
+    /* display: none; */
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ================================================ */
+/* WIDTH & HEIGHT */
+/* ================================================ */
+/* .one {
+    width: 100px;
+    height: 100px;
+} */
