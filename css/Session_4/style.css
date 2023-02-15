@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  ===========================================================
+    Float
+    =========================================================== */
+
+.float {
+    background-color: #aaa;
+    /* overflow: hidden; */
+}
+
+.div-float {
+    width: 100px;
+    height: 100px;
+}
+
+.float-left {
+    float: left;
+    background-color: red;
+    margin-right: 50px;
+}
+
+.float-right {
+    float: right;
+    background-color: blue;
+}
+
+/* .clear {
+    clear: both;
+} */
+
+.img-float {
+    float: left;
+    background-color: red;
+    margin: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+/*  ===========================================================
+    FlexBox
+    =========================================================== */
+
+.flex-cont {
+    margin: 50px auto;
+    background-color: #bbb;
+    font-size: 44px;
+
+    width: 600px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row nowrap; */
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: normal;
+    gap: 10px;
+}
+
+.flex-item {
+    /* width: 100px; */
+    flex-basis: 100px;
+    /* height: 100px; */
+}
+
+.flex-item-1 {
+    background-color: red;
+    /* order: 3; */
+    /* flex-grow: 1; */
+}
+.flex-item-2 {
+    background-color: green;
+    /* order: 2; */
+}
+.flex-item-3 {
+    background-color: blue;
+    /* order: 1; */
+    /* flex-shrink: 11; */
+    /* order: -1; */
+}
+.flex-item-4 {
+    background-color: brown;
+    /* order: 4; */
+    height: 50px;
+}
+.flex-item-5 {
+    background-color: yellow;
+    /* order: 5; */
+}
+.flex-item-6 {
+    background-color: royalblue;
+    /* order: 6; */
+    /* height: 250px; */
+}
+.flex-item-7 {
+    background-color: orange;
+    /* order: 7; */
+}
+.flex-item-8 {
+    background-color: tomato;
+    /* order: 8; */
+}
+.flex-item-9 {
+    background-color: salmon;
+    /* order: 9; */
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+/*  ===========================================================
+    Filter Property
+    =========================================================== */
+.img-div {
+    width: 600px;
+    height: 300px;
+    margin: 25px auto;
+    border: 2px solid;
+}
+
+.img-div img {
+    width: 100%;
+    height: 100%;
+
+    filter: blur(0);
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+/*  ===========================================================
+    Gradients
+    =========================================================== */
+
+.gradient-div {
+    width: 600px;
+    height: 600px;
+    margin: 25px auto;
+    border: 2px solid;
+
+    /* background-image: linear-gradient(red, green, blue); */
+    /* background-image: linear-gradient(to right, red, green, blue); */
+    /* background-image: linear-gradient(135deg, red, green, blue); */
+    /* background-image: linear-gradient(to right, transparent, red); */
+}
