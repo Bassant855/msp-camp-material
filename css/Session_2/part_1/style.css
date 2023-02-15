@@ -1,0 +1,191 @@
+/* =============================================
+    OVERFLOW
+   ============================================== */
+
+.overflow-div {
+    width: 250px;
+    height: 250px;
+    background-color: #ccc;
+    margin: 25px auto;
+    padding: 20px;
+    font-size: 20px;
+
+    /* white-space: nowrap; */
+
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ================================================ */
+/* TEXT */
+/* ================================================ */
+
+.text-p {
+    margin: 25px auto;
+    padding: 25px;
+    font-size: 36px;
+
+    color: red;
+    /* color: #ff0000;
+    color: rgb(255, 0, 0); */
+
+    text-align: left; /* right / center / justify */
+
+    direction: ltr; /* rtl */
+
+    text-transform: none; /* capitalize / uppercase / lowercase */
+
+    /* text-decoration: underline blue solid 5px; */
+    text-decoration: none; /* underline / overline */
+
+    letter-spacing: normal; /* 5px / -5px */
+
+    line-height: normal; /* 1 / 0.8 / 2 */
+
+    word-spacing: normal; /* 5px / -5px */
+
+    white-space: normal; /* nowrap */
+
+    text-shadow: none;
+    /* text-shadow: 2px 2px; */
+    /* text-shadow: 2px 2px blue; */
+    /* text-shadow: 2px 2px 5px blue; */
+
+    /* text-shadow: 2px 2px blue, 4px 4px green; */
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ================================================ */
+/* Grouping Selector */
+/* ================================================ */
+
+/* h1 {
+    color: green;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: green;
+} */
+
+/* h1,
+h2,
+p {
+    color: green;
+} */
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ================================================ */
+/* inherit Keyword */
+/* ================================================ */
+
+.par-div {
+    width: 500px;
+    margin: 40px auto;
+    font-size: 46px;
+    text-align: center;
+
+    padding: 25px;
+    border: 5px solid #bbb;
+}
+
+/* .ch-div {
+    padding: inherit;
+    border: inherit;
+} */
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ================================================ */
+/* calc() Function */
+/* ================================================ */
+
+.calc-div {
+    width: 1000px;
+    margin: 25px auto;
+    border: 2px solid #ccc;
+    padding: 10px 0;
+    font-size: 36px;
+}
+
+.calc-item {
+    background-color: #eee;
+    display: inline-block;
+    text-align: center;
+
+    /* width: calc((98%) / 2); */
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ================================================ */
+/* Typography  */
+/* ================================================ */
+
+.typography-p {
+    width: 500px;
+    margin: 25px auto;
+    text-align: center;
+
+    font-size: 40px;
+
+    /* font-family: sans-serif; */
+    font-family: "Courier New", Courier, monospace;
+}
+
+.typography-p .word {
+    /* font-size: 2em; */
+    /* font-size: 2rem; */
+
+    font-style: normal; /* italic */
+
+    font-weight: normal; /* bold bolder lighter 100:900 */
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*  ===========================================================
+    Float
+    =========================================================== */
+
+.float {
+    background-color: #aaa;
+    /* overflow: hidden; */
+}
+
+.div-float {
+    width: 100px;
+    height: 100px;
+}
+
+.float-left {
+    float: left;
+    background-color: red;
+    margin-right: 50px;
+}
+
+.float-right {
+    float: right;
+    background-color: blue;
+}
+
+/* .clear {
+    clear: both;
+} */
+
+.img-float {
+    float: left;
+    background-color: red;
+    margin: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
